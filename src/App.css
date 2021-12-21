@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.new-game-container {
+  margin: 25px 0;
+}
+
+.shell {
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  color: green;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.shell[disabled] {
+  background: #bbb;
+}
